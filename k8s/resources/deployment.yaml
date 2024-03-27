@@ -9,7 +9,7 @@ spec:
     matchLabels:
       app: game-2048
   strategy:
-    type: RollingUpdate
+    type: RollingUpdate 
   template:
     metadata:
       labels:
